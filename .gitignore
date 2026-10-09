@@ -1,0 +1,15 @@
+# Secrets - never in the repository
+.env
+app/.env.*
+!app/.env.example
+*.sa.json
+*.key
+
+# Build, dependencies, logs
+node_modules/
+app/dist/
+app/logs/
+*.log
+
+# Real CV master file (only the sample markdown CV is versioned)
+app/dane/*.docx

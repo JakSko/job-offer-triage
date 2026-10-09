@@ -1,0 +1,11 @@
+# Do obrazu trafia tylko to, co potrzebne do zbudowania i uruchomienia aplikacji.
+node_modules
+dist
+logs
+test
+.env
+.env.*
+*.log
+*.sa.json
+run.ps1
+run.cmd
